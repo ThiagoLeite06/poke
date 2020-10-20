@@ -1,0 +1,9 @@
+<h1>Lista de Pokémons</h1>
+
+<div class="count">
+  <span>Showing <span class="count-badge">{{ pokes$.length }}</span> Pokémons</span>
+</div>
+
+<ul>
+  <li *ngFor="let pokemon of pokes$ | async">{{ pokemon.name }}</li>
+</ul>

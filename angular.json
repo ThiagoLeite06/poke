@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "poke"
+    }
+  },
+  "defaultProject": "poke",
+  "cli": {
+    "analytics": false
+  }
 }
